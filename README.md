@@ -1,2 +1,24 @@
-# leoni-pta-platform
-Système digital de signalement et supervision des pannes PTA — LEONI Wiring Systems Mateur
+# LEONI PTA — Système de Signalement des Pannes
+
+Projet de Fin d'Études — Licence TIC, Faculté des Sciences de Bizerte
+
+## Description
+Plateforme digitale de signalement et supervision des pannes des machines PTA chez LEONI Wiring Systems Mateur.
+
+## Fonctionnalités
+- Application opérateur PWA (signalement mobile, mode hors ligne)
+- Tableau de bord de supervision en temps réel
+- Alertes automatiques WhatsApp (TextMeBot) et Email (EmailJS)
+- Escalade vers le superviseur si 4+ pannes/heure sur la même CP
+- Base de données Firebase Firestore avec persistance IndexedDB
+- Export Excel des rapports
+
+## Technologies
+- HTML5 / CSS3 / JavaScript
+- Firebase Firestore + Firebase Hosting
+- EmailJS
+- TextMeBot API
+- Chart.js
+- PWA (manifest.json + service-worker.js)
+
+## Structure du projet
