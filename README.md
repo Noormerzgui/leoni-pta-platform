@@ -36,7 +36,7 @@ leoni-pta/
 
 ## Déploiement
 Application déployée sur Firebase Hosting :
-**https://leoni-pta.web.app**
+**https:/leoni-pta.web.app**
 
 ## Configuration
 Copier les fichiers et remplacer les placeholders dans `index.js` et `dash.js` avec vos vraies clés API.
